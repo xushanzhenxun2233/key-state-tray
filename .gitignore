@@ -1,0 +1,25 @@
+# 构建产物
+dist/
+*.exe
+*.pdb
+*.obj
+
+# 运行时文件
+*.ini
+crash.log
+*.log
+
+# 临时文件
+*.tmp
+*.bak
+_anon.cs
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# 系统
+Thumbs.db
+desktop.ini
+dist/
