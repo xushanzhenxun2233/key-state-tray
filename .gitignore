@@ -12,7 +12,6 @@ crash.log
 # 临时文件
 *.tmp
 *.bak
-_anon.cs
 
 # IDE
 .vs/
@@ -22,4 +21,3 @@ _anon.cs
 # 系统
 Thumbs.db
 desktop.ini
-dist/
