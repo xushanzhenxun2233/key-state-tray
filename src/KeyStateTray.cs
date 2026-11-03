@@ -21,8 +21,8 @@ using Microsoft.Win32;
 [assembly: System.Reflection.AssemblyCopyright("")]
 [assembly: System.Reflection.AssemblyTrademark("")]
 [assembly: System.Reflection.AssemblyCulture("")]
-[assembly: System.Reflection.AssemblyVersion("2.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersion("2.0.0.0")]
+[assembly: System.Reflection.AssemblyVersion("2.0.1.0")]
+[assembly: System.Reflection.AssemblyFileVersion("2.0.1.0")]
 
 namespace KeyStateTray
 {
@@ -3408,7 +3408,10 @@ namespace KeyStateTray
             {
                 _food = new FoodForm(this, pos);
                 _food.FormClosed += delegate { _food = null; };
-                _food.Show();
+
+                // 游戏隐藏期间不显示，退出游戏后再恢复
+                if (!_app.GameHidden)
+                    _food.Show();
             }
             catch { _food = null; }
         }
