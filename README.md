@@ -86,11 +86,11 @@
 
 ### 方式一：直接运行（推荐）
 
-1. 前往 [Releases](../../releases/latest) 页面，下载 `KeyStateTray-v2.0.exe`
+1. 前往 [Releases](../../releases/latest) 页面，下载 `KeyStateTray-v2.0.1.exe`
 2. 重命名为 `椰子味的魈宝键盘精灵.exe`（可选）
 3. 放到任意文件夹，双击运行
 
-**下载直链：** [KeyStateTray-v2.0.exe](https://github.com/xushanzhenxun2233/key-state-tray/releases/download/v2.0/KeyStateTray-v2.0.exe)
+**下载直链：** [KeyStateTray-v2.0.1.exe](https://github.com/xushanzhenxun2233/key-state-tray/releases/download/v2.0.1/KeyStateTray-v2.0.1.exe)
 
 **无需安装**，素材与图标已全部内嵌，单个 exe 即可运行。
 
